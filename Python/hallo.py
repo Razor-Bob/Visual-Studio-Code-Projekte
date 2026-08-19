@@ -76,8 +76,8 @@
 # text = "Hallo Python!"
 # print(text.replace("o", ""))  # Gibt "Hall Pythn!" zurück, da der Buchstabe "o" durch einen leeren String ersetzt wurde.
 # Beispiel 4.4.27
-# name = "Florian"
-# print(f"Hallo {name}!")  # Gibt "Hallo Florian!" zurück, da der Name "Florian" in den String eingefügt wird.
+name = "Ramón"
+print(f"Hallo {name}!")  # Gibt "Hallo Ramón!" zurück, da der Name "Ramón" in den String eingefügt wird.
 # Beispiel 4.4.28
 # x1 = 2
 # x2 = -4
