@@ -1,40 +1,6 @@
-# Beispiel 4.4.8
-# print(len("Wasserfall"))
-# Beispiel 4.4.9
-# text = "Wasserfall"
-# print(len(text))  # Das Ergebnis ist 10, da die Nachricht "Wasserfall" 10 Zeichen enthält.
-# Beispiel 4.4.10
-# print(len("Hallo Python!")) # Das Ergebnis ist 13, da die Nachricht "Hallo Python!" 13 Zeichen enthält.
-# Die Methode upper() wandelt alle Buchstaben in Großbuchstaben um.
-# Beispiel 4.4.11
-# text = "Hallo Python!"
-# grossbuchstaben = text.upper()
-# print(grossbuchstaben)
-# Ausgabe des Ergebnisses der Methode upper() direkt auf dem String "Hallo Python!".
-# print("Hallo Python!".upper())
-# Beispiel 4.4.12
-# text = "Hallo Python!"
-# kleinbuchstaben = text.lower()
-# print(kleinbuchstaben)
-# Ausgabe des Ergebnisses der Methode lower() direkt auf dem String "Hallo Python!".
-# print("Hallo Python!".lower())
-# Beispiel 4.4.13
-# text = "Hallo Python!"
-# print(text.isupper())  # Gibt False zurück, da nicht alle Buchstaben Großbuchstaben sind.
-# Aufrufen der Methode isupper direkt auf dem String "Hallo Python!" und Ausgabe des Ergebnisses.
-# print("Hallo Python!".isupper())  # Gibt False zurück, da nicht alle Buchstaben Großbuchstaben sind.
-# Beispiel 4.4.14
-# text = "Hallo Python!"
-# print(text.islower())  # Gibt False zurück, da nicht alle Buchstaben Kleinbuchstaben sind.
-# Aufrufen der Methode islower direkt auf dem String "Hallo Python!" und Ausgabe des Ergebnisses.
-# print("Hallo Python!".islower())  # Gibt False zurück, da nicht alle Buchstaben Kleinbuchstaben sind.
-# Beispiel 4.4.15
-# text = "Hallo Python!"
-# ergebnis = text.strip()  # Entfernt führende und nachgestellte Leerzeichen aus dem String.
-# print(ergebnis)  # Gibt "Hallo Python!" zurück, da keine führenden oder nachgestellten Leerzeichen vorhanden sind.
-# Aufrufen der Methode strip direkt auf dem String "   Hallo Python!   " und Ausgabe des Ergebnisses.
-# print("   Hallo Python!   ".strip())  # Gibt "Hallo Python!" zurück, da führende und nachgestellte Leerzeichen entfernt werden.
-# Beispiel 4.4.16
+print("Hallo Python!")  # Gibt "Hallo Python!" zurück, da die Nachricht "Hallo Python!" ausgegeben wird.
+
+# Beispiel 4.4.16 (Seite 73)
 # text = "Python"
 # ergebnis = text.zfill(10)  # Füllt den String mit führenden Nullen auf, um eine Gesamtlänge von 10 Zeichen zu erreichen.
 # print(ergebnis)  # Gibt "0000Python" zurück, da der String auf eine Gesamtlänge von 10 Zeichen aufgefüllt wird.
@@ -76,8 +42,8 @@
 # text = "Hallo Python!"
 # print(text.replace("o", ""))  # Gibt "Hall Pythn!" zurück, da der Buchstabe "o" durch einen leeren String ersetzt wurde.
 # Beispiel 4.4.27
-name = "Ramón"
-print(f"Hallo {name}!")  # Gibt "Hallo Ramón!" zurück, da der Name "Ramón" in den String eingefügt wird.
+# name = "Ramón"
+# print(f"Hallo {name}!")  # Gibt "Hallo Ramón!" zurück, da der Name "Ramón" in den String eingefügt wird.
 # Beispiel 4.4.28
 # x1 = 2
 # x2 = -4
